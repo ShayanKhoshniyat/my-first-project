@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML/CSS Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+
+</head>
+<body>
+    <nav id="nav">
+        <ul>
+            <li><a href="#home-page">Home</a></li>
+            <li><a href="#about-page">About</a></li>
+            <li><a href="#resume-page">Resume</a></li>
+        </ul>
+
+        <div id="phonenumber">
+            <i class="fas fa-mobile-alt"></i>
+            <p>09125055841</p>
+        </div>
+    </nav>
+
+    <!-- -------------------------------------------------START HOME PAGE ------------------------------------------------- -->
+    <section id="home-page" class="tabcontent">
+        <div id="home-content">
+            <div id="Introduction">
+                <p id="firstname">SHAYAN</p>
+                <p id="lastname">KHOSHNIYAT</p>
+                <p id="job">FRONTEND DEVELOPER</p>
+            </div>
+    
+            <div class="button-container">
+                <a href="#about-page" class="button left-button">About</a>
+                <a href="#resume-page" class="button ">Resume</a>
+            </div>
+    
+        </div>
+    
+        <footer id="footer-home">
+                 <i class="fab fa-telegram"></i>
+                 <i class="fab fa-instagram"></i>
+                 <i class="fab fa-linkedin"></i>
+                 <i class="fab fa-twitter"></i>
+                 <i class="fab fa-pinterest"></i>
+                 <i class="fab fa-whatsapp"></i>
+        </footer>
+    </section>
+    <!-- -------------------------------------------------END HOME PAGE ------------------------------------------------- -->
+
+
+    <!-- -------------------------------------------------START ABOUT PAGE ------------------------------------------------- -->
+    <section id="about-page" class="tabcontent">
+        <div id="about-content">
+            <div class="title">
+                <p id="about">ABOUT</p>
+                <p id="gmail">shayan2001kh@gmail.com</p>
+            </div>
+
+            <div id="explanation">
+                <p id="text">I graduated in computer engineering from Tehran Azad University. I became interested in frontend developing when I was a student. I think front-end development is an interesting job because it combines creativity, technical challenges, and the opportunity to make a meaningful impact on the digital world. </p>
+            </div>
+        </div>
+
+        <footer id="footer-about">
+            <p class="line">____</p> &nbsp;
+            <p>Pirouzi, Tehran, Iran</p> &nbsp;
+            <p class="line">____</p>
+        </footer>
+    </section>
+    <!-- -------------------------------------------------END ABOUT PAGE ------------------------------------------------- -->
+
+
+    <!-- -------------------------------------------------START RESUME PAGE ------------------------------------------------- -->
+    <section id="resume-page" class="tabcontent">
+        <div class="container" id="column1">
+
+            <!-- ----- COLUMN 1 ----- -->
+
+            <div class="column">
+
+                <!-- --- PROGRAMMING SKILLS --- -->
+
+                <div id="programming-skills-container">
+                    <h2>PROGRAMMING SKILLS</h2> 
+                    <div id="programming-skills">
+
+                        <div class="icon-with-text">
+                            <i class="fab fa-html5" id="icon-html"></i>
+                            <label for="html" id="label-html">HTML</label>
+                            <input type="range" id="html" value="70" disabled>
+                        </div>
+
+                        <div class="icon-with-text">
+                            <i class="fab fa-css3" id="icon-css"></i>
+                            <label for="css" id="label-css">CSS</label>
+                            <input type="range" id="css" value="65" disabled>
+                        </div>
+                        
+                        <div class="icon-with-text">
+                            <i class="fab fa-js" id="icon-javascript"></i>
+                            <label for="javascript" id="label-javascript">JavaScript</label>
+                            <input type="range" id="javascript" value="35" disabled>
+                        </div>
+
+                        <div class="icon-with-text">
+                            <i class="fab fa-python" id="icon-python"></i>
+                            <label for="python" id="label-python">Python</label>
+                            <input type="range" id="python" value="30" disabled>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- ------ LANGUAGE ------ -->
+                
+                <div id="language-container">
+                    <h2>LANGUAGES</h2>
+                    <div id="languages">
+
+                        <label for="html" id="label-persian">PERSIAN</label>
+                        <input type="range" id="persian" value="100" disabled>
+                            <br><br>
+                        <label for="html" id="label-english">ENGLISH</label>
+                        <input type="range" id="english" value="60" disabled>              
+                    </div> 
+                </div>
+
+            </div>
+
+
+            <!-- ----- COLUMN 2 ----- -->
+
+            <div class="column">
+            
+                <!-- ----- PERSONAL SKILLS ----- -->
+
+                <div id="prsonal-skills-container">
+                    <h2>PERSONAL SKILLS</h2>
+                    <div id="personal-skills">
+                        <p>Creativity - diligence - Team Work</p>
+                    </div> 
+                </div>
+
+
+                <!-- ----- EDUCATION ----- -->
+
+                <div id="education-container">
+                    <h2>EDUCATION</h2>
+                    <div id="education">
+                        <p id="major"><strong>Computer Engineering / software</strong></p>
+                        <p>Tehran Azad University</p>
+                    </div> 
+                </div>
+
+
+                <!-- ------ HOBBIES & INTERESTS ------ -->
+
+                <div id="hobbies-container">
+                    <h2>HOBBIES & INTERESTS</h2>
+                    <div id="hobbies">
+
+                        <div class="icons-hobbies">
+                            <i class="fas fa-futbol"></i>
+                            <p><strong>Football</strong></p>           
+                        </div>
+
+                        <div class="icons-hobbies">
+                            <i class="fas fa-film"></i>
+                            <p><strong>movie</strong></p>
+                        </div>
+
+                        <div class="icons-hobbies">
+                            <i class="fas fa-gamepad"></i>
+                            <p><strong>Game</strong></p>
+                        </div>
+                        
+                    </div> 
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- -------------------------------------------------END RESUME PAGE ------------------------------------------------- -->
+
+
+</body>
+</html>
