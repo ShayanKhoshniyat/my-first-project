@@ -1,0 +1,381 @@
+body{
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#home-page{
+    background-image: url("images/home-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#about-page{
+  background-image: url("images/shayan.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#resume-page{
+  background-image: url("images/resume-background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* START NAVIGATION BAR */
+
+#nav{
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    padding: 5px 20px;
+    top: 0;
+}
+
+#nav ul{
+    list-style-type: none;
+    padding: 0px;
+}
+
+#nav ul li{
+    display: inline;
+    padding: 10px 20px;
+}
+
+#nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#nav ul li a:hover{
+    color:#1985a1 ;
+}
+
+#phonenumber{
+    display: flex;
+    padding: 15px 30px;
+
+}
+
+#phonenumber p{
+    font-size: 14px;
+    margin: 0px;
+}
+
+#phonenumber i {
+    padding-right: 8px ;
+}
+
+/* END NAVIGATION BAR */
+
+/* ---------- HOME PAGE ---------- */
+
+/* START INTRODUCTION SECTION */
+
+#home-content{
+    padding: 160px 60px;
+    width: 500px;
+}
+
+#firstname, #lastname, #job{
+    margin:0;
+    padding:0;
+}
+
+#firstname{
+    font-size:4em;
+    height: 45px;
+}
+
+#lastname{
+    font-size:4em;
+    font-weight: 900;
+    height: 77px;
+}
+
+#job{
+    letter-spacing:1.01em;
+    padding-left: 4px;
+}
+
+/* END INTRODUCTION SECTION */
+
+.button-container{
+    text-align: center;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    font-size:20px;
+    padding: 15px 60px;
+    border: 2px solid white;
+    background-color: #007bff00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.left-button{
+    margin-right: 45px;
+}
+
+.button:hover{
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* END INTRODUCTION SECTION */
+
+
+/* START FOOTER SECTION */
+
+#footer-home{
+  margin-top: 80px;
+    color: #fff; 
+    padding: 30px 100px;
+}
+#footer-home i{
+    font-size: 1.5em;
+    margin-right: 10px;
+}
+
+/* END FOOTER SECTION */
+
+
+
+/* ---------- ABOUT PAGE ---------- */
+
+/* START TITLE SECTION */
+
+
+#about-content{
+    padding: 110px;
+    width: 33%;
+}
+
+#about{
+    font-size:2em;
+    font-weight: 900;
+    text-decoration: underline;
+    text-decoration-color: #1985a1;
+    margin-bottom: 0;
+}
+
+#gmail{
+    margin-top: 5px;
+}
+
+#explanation{
+    margin: 120px 0px;
+}
+
+/* END TITLE SECTION */
+
+/* START FOOTER SECTION */
+
+#footer-about{
+    /* width:100%; */
+    padding: 30px 100px;
+}
+
+footer p {
+    display: inline;
+ }
+
+.line{
+    color: #1985a1;
+}
+
+/* END FOOTER SECTION */
+
+/* ---------- RESUME PAGE ---------- */
+
+.container {
+    padding: 65px 150px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+    
+    .column {
+      flex: 1; /* Each column takes up an equal amount of space */
+      padding: 20px;
+      box-sizing: border-box;
+    }
+    
+    #column1{
+      margin-right: 20px;
+    }
+  
+  
+  h2{
+      text-decoration: underline;
+      text-decoration-color: #1985a1;
+      margin-bottom: 0;
+  }
+  
+  /* ________________ COLUMN 1 ________________ */
+  
+  /* --------- PROGRAMMING SKILLS --------- */
+  
+  .icon-with-text {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+   }   
+  
+  #programming-skills{
+      margin-top: 40px;
+   }
+  
+  /* --- LABELS --- */
+  #label-html{margin-right: 54px;}
+  #label-css{margin-right: 62px;}
+  #label-javascript{margin-right: 20px;}
+  #label-python{margin-right: 44px;}
+  
+  
+  /* --- ICONS --- */
+  #icon-html{margin-right: 27px;}
+  #icon-css{margin-right: 20px;}
+  #icon-javascript{margin-right: 25px;}
+  #icon-python{margin-right: 26px;}
+  
+  .fab{font-size: 40px;}
+  
+  /* --- RANGE INPUTS --- */
+  
+  /*********** Baseline, reset styles ***********/
+  input[type="range"] {
+    -webkit-appearance: none;
+    appearance: none;
+    background: transparent;
+    width: 220px;
+  }
+  
+  /* Removes default focus */
+  input[type="range"]:focus {
+    outline: none;
+  }
+  
+  /******** Chrome, Safari, Opera and Edge Chromium styles ********/
+  /* slider track */
+  input[type="range"]::-webkit-slider-runnable-track {
+    background-color: #ffffff;
+    border-radius: 2.5px;
+    height: 3px;
+  }
+  
+  /* slider thumb */
+  input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Override default look */
+    appearance: none;
+    margin-top: -8.5px; /* Centers thumb on the track */
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+  }
+  
+  input[type="range"]:focus::-webkit-slider-thumb {
+    outline: 3px solid #ffffff;
+    outline-offset: 0.125rem;
+  }
+  
+  /* ********** Firefox styles ********** */
+  /* slider track */
+  input[type="range"]::-moz-range-track {
+    background-color: #ffffff;
+    border-radius: 2.5px;
+    height: 3px;
+  }
+  
+  /* slider thumb */
+  input[type="range"]::-moz-range-thumb {
+    background-color: #ffffff;
+    border: none; /*Removes extra border that FF applies*/
+    border-radius: 10px;
+    height: 20px;
+    width: 20px;
+  }
+  
+  input[type="range"]:focus::-moz-range-thumb{
+    outline: 3px solid #ffffff;
+    outline-offset: 0.125rem;
+  }  
+  
+  
+  /* -------------- LANGUAGES -------------- */
+  
+  #language-container{
+    margin-top: 80px;
+  }
+  
+  /* --- LABELS --- */
+  #languages{
+      margin-top: 40px;
+  }
+  
+  #label-persian{margin-right: 80px;}
+  #label-english{margin-right: 80px;}
+  
+  
+  
+  
+  /* ________________ COLUMN 2 ________________ */
+  
+  
+  /* --------- PPERSONAL SKILLS --------- */
+  
+  #personal-skills{
+    margin-top: 40px;
+  }
+  
+  
+  /* ------------ EDUCATION ------------ */
+  
+  #education-container{
+    margin-top: 80px;
+  }
+  
+  #education{
+    margin-top: 40px;
+  }
+  
+  
+  /* --------- HOBBIES & INTERESTS --------- */
+  
+  #hobbies-container{
+    margin-top: 80px;
+  }
+  
+  #hobbies{
+    margin-top: 40px;
+  }
+  
+  
+  #hobbies{
+    width: 280px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .icons-hobbies{
+    text-align: center;
+    flex: 1;
+    box-sizing: border-box;
+  }
+  
+  .icons-hobbies i{
+    padding: 6px;
+    border: #ffffff solid;
+    border-radius: 50%;
+    font-size: 40px;
+  }
+  
+  .icons-hobbies p{
+    font-size: 13px;
+  }
